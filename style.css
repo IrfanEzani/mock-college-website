@@ -658,29 +658,43 @@ header.section-header.news {
   border-radius: 0 0 3px 3px;
 }
 
-#portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
-  line-height: 1px;
-  font-weight: 700;
-  margin-bottom: 18px;
-  padding-bottom: 0;
-}
-
-#portfolio .portfolio-item .portfolio-info h4 a {
-  color: #333;
-}
-
-#portfolio .portfolio-item .portfolio-info h4 a:hover {
-  color: #18d26e;
-}
 
 #portfolio .portfolio-item .portfolio-info p {
   padding: 0;
   margin: 0;
   color: #b8b8b8;
-  font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+
+#portfolio .portfolio-item .portfolio-info p a {
+  color: #333;
+}
+
+#portfolio .portfolio-item .portfolio-info p a:hover {
+  color: #18d26e;
+}
+
+#portfolio .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid black;
+  color: black;
+}
+
+#portfolio .cta-btn:hover {
+  background: #18d26e;
+  border: 2px solid #18d26e;
+  color : white;
 }
 
 
@@ -738,34 +752,17 @@ header.section-header.news {
   color: #fff;
   font-size: 2.5rem;
   font-weight: 700;
-  padding: 1rem 0;
+  padding: 1rem 3rem;
+  margin: 1rem 4rem;
 }
 
 #call-to-action p {
   color: #fff;
   font-size: 1.2rem;
-  padding: 1rem;
+  padding: 1rem 2rem;
+  margin: 1rem 3rem;
 }
 
-#call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px;
-  border-radius: 25px;
-  transition: 0.5s;
-  margin-top: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#call-to-action .cta-btn:hover {
-  background: #18d26e;
-  border: 2px solid #18d26e;
-}
 
 #call-to-action .counters span {
   font-family: "Montserrat", sans-serif;
