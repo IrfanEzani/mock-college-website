@@ -1,3 +1,4 @@
+;
 body {
   background: white;
   color: #666666;
@@ -752,7 +753,7 @@ header.section-header.news {
 #call-to-action {
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(assets/img/kgi-birdview.png) fixed center center;
   background-size: cover;
-  padding: 30px 0;
+  padding: 4rem 0;
 }
 
 #call-to-action h3 {
@@ -789,7 +790,7 @@ header.section-header.news {
 
 
 #director-foreword {
-margin: 6rem 0;
+margin: 6rem 0 3rem 0;
 height: 90vh;
 }
 
@@ -824,3 +825,89 @@ height: 90vh;
   font-style: italic;
   padding: 10px 0;
 }
+
+
+#alumni {
+  background: linear-gradient(rgba(13, 13, 13, 0.7), rgba(0, 0, 0, 0.7)), url(assets/img/alumni.png) fixed center center;
+  color: white;
+  background-size: cover;
+  padding: 4rem 0;
+  height: 100vh;
+}
+
+#alumni h4 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  font-weight: bold;
+  color: #18d26e;
+}
+
+#alumni p {
+  font-size: 1.5rem;
+  padding: 0 5rem;
+}
+
+#alumni h3 {
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+#alumni .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: white;
+}
+
+#alumni .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+#conclude {
+  padding-top: 6rem;
+  height: 100vh;
+}
+
+.conclude-container {
+  background: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.conclude-container > #conclude-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  color : white;
+}
+
+.conclude-container > #conclude-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#conclude-text h3, h4{
+  padding-left:1.5rem;
+}
+ #conclude-text h3 {
+   text-transform: uppercase;
+   font-weight: bold;
+ }
+
+ #conclude-img img {
+   padding: 0;
+   margin: 0;
+   transform: translateY(-50px);
+ }
