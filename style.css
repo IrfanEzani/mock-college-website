@@ -240,7 +240,7 @@ align-items: center;
   right: 0;
   top: 0;
   z-index: 999;
-  margin: 15px 20px 0 0;
+margin: 7px 20px 10px 0;
   border: 0;
   background: none;
   font-size: 24px;
@@ -632,7 +632,7 @@ header.section-header.news {
 #portfolio .portfolio-wrap img {
     height: 100%;
     width: auto;
-    overflow: hidden;
+    overflow: hidden;m
 }
 
 #portfolio .portfolio-item {
