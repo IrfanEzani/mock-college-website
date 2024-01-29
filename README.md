@@ -1,4 +1,5 @@
 # College Mock Website
+<img width="1239" alt="image" src="https://github.com/IrfanEzani/mock-college-website/assets/59435235/23fee767-1341-4e52-90cb-4bd7a2bb56bb">
 
 ## Overview
 Mock-up website for GENIUS Insan College, designed to showcase the institution's academic and extracurricular offerings, its mission, vision, and achievements. The page is designed with a user-friendly interface, incorporating various multimedia elements and external links for an engaging user experience.
